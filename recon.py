@@ -120,7 +120,7 @@ def main():
     unique_subs = list(set(all_subs))
 
     alive = run_httpx(unique_subs)
-    nuclei_raw = run_nuclei(alive)
+    nuclei_raw = run_nuclei(unique_subs)
     vulns = parse_nuclei(nuclei_raw)
 
     print(f"Found {len(vulns)} vulnerabilities")
