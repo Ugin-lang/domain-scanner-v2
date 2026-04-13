@@ -1,4 +1,5 @@
-🧠 Recon Automation Tool
+# Recon Automation Tool
+
 A lightweight recon pipeline automation tool for subdomain enumeration, live host detection, and vulnerability scanning.
 Built for bug bounty workflow automation using popular security tools.
 
